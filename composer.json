@@ -1,0 +1,11 @@
+{
+  "name": "metabolix/dy-fi-updater",
+  "description": "DNS record updater for dy.fi",
+  "type": "project",
+  "license": "Unlicense",
+  "autoload": {
+    "psr-4": {
+      "Metabolix\\DyFiUpdater\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+[Unit]
+Description=DNS record updater for dy.fi
+
+[Timer]
+OnBootSec=30s
+OnUnitInactiveSec=60min
+
+[Install]
+WantedBy=default.target

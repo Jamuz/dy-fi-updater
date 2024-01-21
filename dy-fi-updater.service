@@ -1,0 +1,6 @@
+[Unit]
+Description=DNS record updater for dy.fi
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/php /usr/lib/dy-fi-updater/CLI.php --conf %E/dy-fi-updater.conf --state %S/dy-fi-updater/state
