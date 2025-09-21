@@ -15,5 +15,5 @@ abstract class Logger {
     public function error($msg) {
         $this->write("error", $msg);
     }
-	abstract protected function write($level, $msg);
+    abstract protected function write($level, $msg);
 }
